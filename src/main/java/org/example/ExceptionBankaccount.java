@@ -56,6 +56,7 @@ class App
         }
         catch(Exception e){
             l.info("Enter integer only...");
+            System.exit(0);
         }
         l.info("Enter the Balance amount:");
         long b=s.nextLong();
